@@ -1,11 +1,11 @@
 ---
 content: |
-  ## 📡 Ethernet CRC-32 / Frame Check Sequence (FCS) Lab
+  ##  Ethernet CRC-32 / Frame Check Sequence (FCS) Lab
 
   **A low-level simulation of Ethernet error detection using the CRC-32 algorithm (IEEE 802.3 standard)**
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project simulates how real Network Interface Cards (NICs) perform error detection at the **Data Link Layer** using the **CRC-32** algorithm. 
 
@@ -15,7 +15,7 @@ The goal is educational: to understand how CRC works internally, rather than jus
 
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 By studying and running this project, you will learn:
 
@@ -28,7 +28,7 @@ By studying and running this project, you will learn:
 
 ---
 
-## 🔢 Theoretical Background
+##  Theoretical Background
 
 ### CRC-32 Polynomial (Ethernet)
 
@@ -52,7 +52,7 @@ This improves error detection properties and is the industry standard.
 
 ---
 
-## 🧩 Ethernet Frame Structure (Simplified)
+##  Ethernet Frame Structure (Simplified)
 
 ```text
 +-------------------+-------------------+------------+-------------------+---------+
@@ -65,7 +65,7 @@ This improves error detection properties and is the industry standard.
 
 ---
 
-## ⚙️ Core Features
+##  Core Features
 
 ### 1. CRC-32 Engine
 - Pure bitwise implementation (no lookup table)
@@ -84,7 +84,7 @@ This improves error detection properties and is the industry standard.
 
 ---
 
-## 🧪 Test Suite
+##  Test Suite
 
 The project includes comprehensive tests:
 
@@ -96,7 +96,7 @@ Even a **single-bit flip** causes the frame to be correctly rejected.
 
 ---
 
-## 🛠️ How to Run
+##  How to Run
 
 ```bash
 python crc_lab.py
@@ -106,7 +106,7 @@ python crc_lab.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 Ethernet-CRC32-Lab/
@@ -116,7 +116,7 @@ Ethernet-CRC32-Lab/
 
 ---
 
-## 🚀 Possible Extensions
+##  Possible Extensions
 
 - Add **lookup table** optimization (8x faster)
 - Implement Ethernet **preamble + SFD**
@@ -127,7 +127,7 @@ Ethernet-CRC32-Lab/
 
 ---
 
-## ⚠️ Design Decisions
+##  Design Decisions
 
 - **Bitwise implementation** chosen over lookup tables for educational clarity
 - **Reflected polynomial** used to simulate real NIC behavior
@@ -135,14 +135,14 @@ Ethernet-CRC32-Lab/
 
 ---
 
-## 👨‍💻 Technologies
+##  Technologies
 
 - Python 3.8+
 - No external dependencies
 
 ---
 
-## 📜 License
+##  License
 
 This project is open source and available under the **MIT License**.
 
