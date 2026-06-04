@@ -1,4 +1,3 @@
-**✅ بله، حتما!*
 ---
 
 ```markdown
@@ -158,10 +157,3 @@ This project is open source and available under the **MIT License**.
 **Feel free to star ⭐ the repository if you found it useful!**
 
 ```
-
-اگر خواستی:
-- نسخه فارسی هم اضافه کنم
-- بج رو اضافه کنم (مثل Python, Networks)
-- قسمت Contributing یا Authors اضافه بشه
-
-بگو تا فوری اعمال کنم.
