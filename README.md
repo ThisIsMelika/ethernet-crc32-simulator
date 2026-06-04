@@ -1,9 +1,8 @@
 ---
+content: |
+  ## 📡 Ethernet CRC-32 / Frame Check Sequence (FCS) Lab
 
-## 📡 Ethernet CRC-32 / Frame Check Sequence (FCS) Lab
-
-**A low-level simulation of Ethernet error detection using the CRC-32 algorithm (IEEE 802.3 standard)**
-
+  **A low-level simulation of Ethernet error detection using the CRC-32 algorithm (IEEE 802.3 standard)**
 ---
 
 ## 📌 Project Overview
